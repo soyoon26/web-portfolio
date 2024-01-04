@@ -319,6 +319,14 @@ table {
   border-spacing: 0;
 }
 /* ==========================================================================Section Styles========================================================================== */
+.cv {
+  padding-top: 30px;
+  padding-left: 20%;
+}
+.forcv {
+  padding-left: 20%;
+}
+
 .section-padding {
   padding: 90px 0 100px;
 }
