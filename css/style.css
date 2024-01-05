@@ -677,6 +677,11 @@ h1.arrow span {
   font-size: 24px;
   color: #8c8c8c;
 }
+
+.date {
+  font-size: 30px;
+}
+
 .color-bg h1.arrow span {
   color: #ffe800;
 }
