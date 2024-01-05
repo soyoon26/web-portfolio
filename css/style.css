@@ -193,6 +193,25 @@ samp {
 h1.name span {
   letter-spacing: 13px;
 }
+.pt-3,
+.py-3 {
+  padding-top: 1rem !important;
+}
+
+.pr-3,
+.px-3 {
+  padding-right: 1rem !important;
+}
+
+.pb-3,
+.py-3 {
+  padding-bottom: 1rem !important;
+}
+
+.pl-3,
+.px-3 {
+  padding-left: 1rem !important;
+}
 
 pre {
   white-space: pre;
@@ -229,6 +248,45 @@ p {
   line-height: 28px !important;
 }
 /* ==========================================================================Lists========================================================================== */
+
+.resume-wrap {
+  width: 100%;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+/* .resume-wrap .icon {
+  width: 50px;
+  height: 50px;
+  background: #3e64ff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+} */
+.resume-wrap .icon span {
+  color: #fff;
+  font-size: 28px;
+}
+.resume-wrap .text {
+  width: calc(100% - 50px);
+}
+.resume-wrap .date {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  color: #4866da;
+}
+.resume-wrap h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.resume-wrap .position {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
 dl,
 menu,
 ol,
