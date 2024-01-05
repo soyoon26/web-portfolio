@@ -181,6 +181,19 @@ samp {
   _font-family: "courier new", monospace;
   font-size: 1em;
 }
+@font-face {
+  font-family: "ROMANTIC";
+  src: url("../assets/bootstrap/fonts/ROMANTIC.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.name {
+  font-family: "ROMANTIC", sans-serif;
+}
+h1.name span {
+  letter-spacing: 13px;
+}
+
 pre {
   white-space: pre;
   white-space: pre-wrap;
